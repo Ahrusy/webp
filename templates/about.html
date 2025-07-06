@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}О нас{% endblock %}
+
+{% block content %}
+    <h2>О нашем проекте</h2>
+
+    <section>
+        <h3>Наша миссия</h3>
+        <p>Мы создали этот сайт, чтобы помочь людям вести здоровый образ жизни, предоставляя достоверную и полезную информацию о питании, физической активности, психическом здоровье и профилактике заболеваний.</p>
+    </section>
+
+    <section>
+        <h3>Наша команда</h3>
+        <p>Над проектом работают специалисты в области диетологии, фитнес-тренеры, психологи и врачи, которые делятся своими знаниями и опытом.</p>
+
+        <div style="display: flex; justify-content: space-around; margin-top: 20px;">
+            <div style="text-align: center;">
+                <img src="https://via.placeholder.com/150" alt="Доктор Иванова">
+                <h4>Доктор Иванова</h4>
+                <p>Врач-диетолог</p>
+            </div>
+            <div style="text-align: center;">
+                <img src="https://via.placeholder.com/150" alt="Петр Сидоров">
+                <h4>Петр Сидоров</h4>
+                <p>Фитнес-тренер</p>
+            </div>
+            <div style="text-align: center;">
+                <img src="https://via.placeholder.com/150" alt="Анна Смирнова">
+                <h4>Анна Смирнова</h4>
+                <p>Психолог</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h3>Наши принципы</h3>
+        <ul>
+            <li>Научная обоснованность информации</li>
+            <li>Практическая применимость советов</li>
+            <li>Индивидуальный подход к здоровью</li>
+            <li>Доступность информации для всех</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Свяжитесь с нами</h3>
+        <p>Если у вас есть вопросы или предложения, напишите нам на <a href="mailto:info@healthylifestyle.com">info@healthylifestyle.com</a></p>
+    </section>
+{% endblock %}
